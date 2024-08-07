@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+gender=(input("enter your gender(male/female:)"))
+age=int(input("enter your age:"))
+if gender==male and age>=18:
+    print("you can vote")
+elif gender==female and age>=21:
+    print("you can vote")
+else:
+    print("have to wait")
